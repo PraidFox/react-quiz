@@ -1,0 +1,28 @@
+.Layout{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.Layout main{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+button:focus {
+    outline: none;
+}
+
+button {
+    background: green;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    cursor: pointer;
+}
+
+img {
+    width: 50%;
+}
