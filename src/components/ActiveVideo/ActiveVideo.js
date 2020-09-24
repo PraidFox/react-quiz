@@ -20,9 +20,9 @@ const ActiveVideo = props =>{
         />
 
         <br/>
-            <div style={{textAlign: "center"}}>Смотрите видео внимательно, следующий вопрос будет связанно именно с ним.</div>
+            <div style={{textAlign: "center"}}>Смотрите видео внимательно, следующий вопрос будет связан именно с ним.</div>
         <br/>
-                <div className={classes.button}><button disabled={props.button} onClick={props.nextQuiz}> Следующий вопрос </button></div>
+                <div className={classes.button}><button disabled={props.button} onClick={props.nextQuiz}> Следующий вопрос</button></div>
     </div>
 </div>
 )};

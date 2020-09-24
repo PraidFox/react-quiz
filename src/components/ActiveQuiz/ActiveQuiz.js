@@ -25,15 +25,15 @@ const ActiveQuiz = props =>{
     </span>
 
 </p>
-        <ShowInfo
-            info = {props.info}
-        />
+
        { <AnswersList
            state={props.state}
            answers={props.answers}
            onAnswerClick={props.onAnswerClick}
         />}
-
+        <ShowInfo
+            info = {props.info}
+        />
         <div className={cls.join(' ')}><button disabled={props.button} onClick={props.nextQuiz}> Следующий вопрос </button></div>
 
 

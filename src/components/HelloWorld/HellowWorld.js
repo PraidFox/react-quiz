@@ -20,7 +20,7 @@ render () {
         <h1 className={classes.Title}>Добро пожаловать</h1>
         <div className={classes.HelloWorld}>
 
-            <p>Для доступа к супер секретным данным.
+            <p>Для доступа к суперсекретным данным.
             Введите своё кодовое имя </p> <div className={classes.input}>
             <input type="text" onChange={this.rename}/></div><br/>
             <div className={classes.button}><button onClick={() => this.props.userName(this.x)}>Получить доступ</button></div>
